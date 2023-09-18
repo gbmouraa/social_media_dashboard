@@ -12,13 +12,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/screenshot1.png)
+![](./public/screenshot2.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/gbmouraa/social_media_dashboard](https://github.com/gbmouraa/social_media_dashboard)
+- Live Site URL: [https://gbmoura-social-media-dashboard.netlify.app/](https://gbmoura-social-media-dashboard.netlify.app/)
 
 ### Built with
 
@@ -27,5 +28,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@gbmouraa](https://www.frontendmentor.io/profile/gbmouraa)
 - Linkedin - [Gabriel Moura](https://www.twitter.com/yourusername)
