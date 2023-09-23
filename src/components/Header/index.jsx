@@ -9,7 +9,7 @@ function Header() {
     } else {
       setColorTheme('light')
     }
-    
+
     localStorage.setItem('theme', JSON.stringify(theme))
   }
 
@@ -36,7 +36,7 @@ function Header() {
           <label htmlFor="dark-mode" className='w-12 h-6 md:ml-3 rounded-full relative cursor-pointer bg-toggle dark:bg-toggle-gradient
            hover:bg-toggle-gradient'>
             <input type="checkbox" id="dark-mode" className="peer sr-only" onClick={toggleTheme} />
-            <span className={`absolute w-[18px] h-[18px] rounded-full top-[3px] left-[3px] bg-white dark:bg-dark-blue dark:right-[3px] transition-all duration-500`}></span>
+            <span className={`absolute w-[18px] h-[18px] rounded-full top-[3px] dark:left-[3px] right-[3px] bg-white dark:bg-dark-blue transition-all duration-500`}></span>
           </label>
         </div>
       </div>
