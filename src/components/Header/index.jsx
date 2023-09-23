@@ -1,17 +1,28 @@
 import React, { useState, useEffect } from "react"
 
 function Header() {
-  const [darkMode, setColorTheme] = useState(false)
+  const [theme, setColorTheme] = useState('light')
 
   const toggleTheme = () => {
-    setColorTheme(!darkMode)
+    if (theme === 'light') {
+      setColorTheme('dark')
+    } else {
+      setColorTheme('light')
+    }
+
+    localStorage.setItem('theme', JSON.stringify(theme))
   }
 
   useEffect(() => {
     const htmlElement = document.querySelector('html')
-    if (darkMode) htmlElement.classList.add('dark')
-    else htmlElement.classList.remove('dark')
-  }, [darkMode])
+    htmlElement.classList.remove('light', 'dark')
+
+    const themeStorage = localStorage.getItem('theme')
+    const savedTheme = JSON.parse(themeStorage)
+
+    if (savedTheme) htmlElement.classList.add(savedTheme)
+
+  }, [theme])
 
   return (
     <header className="pt-8 px-5 pb-24  font-inter bg-pale-blue dark:bg-dark-blue-head rounded-b-[20px] transition-all duration-300">
@@ -25,8 +36,7 @@ function Header() {
           <label htmlFor="dark-mode" className='w-12 h-6 md:ml-3 rounded-full relative cursor-pointer bg-toggle dark:bg-toggle-gradient
            hover:bg-toggle-gradient'>
             <input type="checkbox" id="dark-mode" className="peer sr-only" onClick={toggleTheme} />
-            <span className="absolute w-[18px] h-[18px] rounded-full bg-white peer-checked:bg-dark-blue top-[3px] right-[3px] 
-            peer-checked:translate-x-[-24px] transition-all duration-500"></span>
+            <span className={`absolute w-[18px] h-[18px] rounded-full top-[3px] left-[3px] bg-white dark:bg-dark-blue dark:right-[3px] transition-all duration-500`}></span>
           </label>
         </div>
       </div>
