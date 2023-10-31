@@ -7,7 +7,7 @@ function App() {
     <div className="w-full  min-h-screen bg-white dark:bg-dark-blue transition-all duration-300">
       <Header />
       <SocialMedia />
-      <Overview/>
+      <Overview />
     </div>
   );
 }
