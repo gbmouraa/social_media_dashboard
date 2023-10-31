@@ -1,32 +1,32 @@
-# Frontend Mentor - Social media dashboard with theme switcher solution
+# Frontend Mentor - Social media dashboard with theme switcher
 
-This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
+Esta é uma solução para o [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
 
-### The challenge
+### O desafio 💻
 
-Users should be able to:
+Os usuários devem ser capazes de:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Toggle color theme to their preference
+- Ver o layout ideal para o componente em função do tamanho do ecrã do seu dispositivo
+- Ver os estados de hover de todos os elementos interactivos da página
+- Alternar o tema de cor de acordo com a sua preferência
 
 ### Screenshot
 
 ![](./public/screenshot1.png)
 ![](./public/screenshot2.png)
 
-
 ### Links
 
-- Solution URL: [https://github.com/gbmouraa/social_media_dashboard](https://github.com/gbmouraa/social_media_dashboard)
-- Live Site URL: [https://gbmoura-social-media-dashboard.netlify.app/](https://gbmoura-social-media-dashboard.netlify.app/)
+- **Repositório URL**: [https://github.com/gbmouraa/social_media_dashboard](https://github.com/gbmouraa/social_media_dashboard)
+- **Live Site URL**: [https://gbmoura-social-media-dashboard.netlify.app/](https://gbmoura-social-media-dashboard.netlify.app/)
 
-### Built with
+### Tecnologias Utilizadas :rocket:
 
-- Tailwind CSS
-- [React](https://reactjs.org/) - JS library
+- **React**: Uma biblioteca JavaScript popular para construir interfaces de usuário interativas.
+- **Tailwind CSS**: Um framework CSS que oferece várias classes para utilização já pré-estilizadas.
 
-## Author
+## Autor
 
-- Frontend Mentor - [@gbmouraa](https://www.frontendmentor.io/profile/gbmouraa)
-- Linkedin - [Gabriel Moura](https://www.twitter.com/yourusername)
+- **Portfólio** - [Gabriel Moura](https://gmouradev.netlify.app/)
+- **Frontend Mentor** - [@gbmouraa](https://www.frontendmentor.io/profile/gbmouraa)
+- **Linkedin** - [Gabriel Moura](https://www.linkedin.com/in/gabriel-moura-b63382161/)
